@@ -15,7 +15,7 @@ header {
 	padding: 2em;
 	border-color: #799AB5;
     border-width: 2em;
-	
+	border-radius:25px;
 }
 .page-header h1 {
 	margin-bottom: 0;
@@ -41,12 +41,20 @@ aside.more-info p {
 	padding-left: 150px;
 }
 ul.info-links {
-	margin-left: 150px;
     float: left;
+	margin-left:150px;
 }
+/* ul.info-links li {
+	display: inline;
+	margin-right:2em;
+} */
 ul.social-links {
 	float: left;
 }
+/* ul.social-links li {
+	display: inline;
+	margin-right:2em;
+} */
 section#content {
 	margin-top: 200px;
 	border-bottom: 1px solid black;
@@ -60,6 +68,10 @@ section#content {
 	font-size: 1.5em;
 	line-height: 1.8;
 }
+ul.poem li:first-child::first-letter {
+	font-size: 2em;
+	font-weight:bold;
+}
 footer {
 	color: #DACFB4;
 	padding-left: 1.5em;
@@ -68,7 +80,7 @@ footer p {
 	font-weight: bold;
 }
 footer.page-footer {
-	background-color: black;
+	background-color: rgba(0,0,0,0.3);
 	padding-left: 2em;
 }
 footer li {
@@ -85,4 +97,8 @@ footer a:link {
 }
 footer a:visited {
 	color: #AD93C3;
+}
+footer li {
+	display: inline;
+	margin-right:2em;
 }
