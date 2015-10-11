@@ -47,6 +47,7 @@ ul.info-links {
 /* ul.info-links li {
 	display: inline;
 	margin-right:2em;
+***alternative display option***
 } */
 ul.social-links {
 	float: left;
@@ -54,6 +55,7 @@ ul.social-links {
 /* ul.social-links li {
 	display: inline;
 	margin-right:2em;
+***alternative display option***
 } */
 section#content {
 	margin-top: 200px;
